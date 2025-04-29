@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useAddComment } from '../hooks/useAddComment';
+import { useAddComment } from '../../shared/hooks/useAddComment';
 
 const CommentForm = ({ postId, onCommentAdded }) => {
   const [form, setForm] = useState({ author: '', content: '' });

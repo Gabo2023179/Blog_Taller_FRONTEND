@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFindPost } from '../hooks/useFindPost';
-import CommentList from './CommentList';
-import CommentForm from './CommentForm';
+import { useFindPost } from '../../shared/hooks/useFindPost';
+import CommentList from '../comment/CommentList';
+import CommentForm from '../comment/CommentForm';
 
 const PostDetail = () => {
   const { id } = useParams();
