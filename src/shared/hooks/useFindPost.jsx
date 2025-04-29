@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { findPostById } from '../services/api';
+import { findPostById } from '../../services/api'
 
 export const useFindPost = () => {
   const [post, setPost] = useState(null);

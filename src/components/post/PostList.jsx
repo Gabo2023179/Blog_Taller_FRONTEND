@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import PostCard from './PostCard';
-import { useListPosts } from '../hooks/useListPosts';
+import { useListPosts } from '../../shared/hooks/useListPosts';
 
 const PostList = () => {
   const { posts, loadPosts, isLoading, error } = useListPosts();

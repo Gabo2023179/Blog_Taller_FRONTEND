@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { addComment } from '../services/api';
+import { addComment } from '../../services/api';
 
 export const useAddComment = () => {
   const [isLoading, setIsLoading] = useState(false);

@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { listPosts } from '../services/api';
+import { listPosts } from '../../services/api';
 
 export const useListPosts = () => {
   const [posts, setPosts] = useState([]);
