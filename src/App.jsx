@@ -7,8 +7,7 @@ export default function App() {
   // Usa useRoutes para manejar las rutas dentro del Router
   const element = useRoutes(routes);
 
-  return (
-    <Router>  /* Asegúrate de que el Router envuelva toda la aplicación */
+  return (  
       <div id="root">
         {/* Barra de navegación */}
         <nav className="p-4 bg-gray-100 border-b mb-6">
@@ -22,7 +21,6 @@ export default function App() {
           {/* Aquí se renderizan las rutas definidas en el objeto `routes` */}
           {element}
         </main>
-      </div>
-    </Router>  /* Aquí está el Router envolviendo toda la app */
+      </div>  /* Aquí está el Router envolviendo toda la app */
   );
 }
