@@ -1,0 +1,13 @@
+.not-found-page {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .not-found-page h2 {
+    font-size: 1.75rem;  /* 28px */
+    color: #e53e3e;       /* Rojo para destacar */
+    margin-bottom: 1rem;
+  }
+  .not-found-page p {
+    font-size: 1rem;
+    color: #4a5568;
+  }

@@ -1,0 +1,10 @@
+.home-page {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  .home-page h1 {
+    font-size: 2.25rem;  /* 36px */
+    color: #2d3748;       /* Gris oscuro */
+    margin-bottom: 1.5rem;
+  }
