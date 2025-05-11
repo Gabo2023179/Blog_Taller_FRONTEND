@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="pt-16 pb-8 bg-white dark:bg-gray-800">
       <div className="container mx-auto px-4 flex items-center justify-center text-gray-600 dark:text-gray-400">
         <p className="text-sm text-center">
-          &copy; {new Date().getFullYear()} Blog de Aprendizaje. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Blog de Aprendizaje hecho por Jose Gabriel Contreras Sanchez 2023179 IN6BV. Todos los derechos reservados.
         </p>
       </div>
     </footer>
